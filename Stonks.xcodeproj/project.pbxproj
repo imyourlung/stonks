@@ -13,8 +13,6 @@
 		E953DDF525C6B231008C02A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF325C6B231008C02A1 /* Main.storyboard */; };
 		E953DDF725C6B234008C02A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF625C6B234008C02A1 /* Assets.xcassets */; };
 		E953DDFA25C6B234008C02A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF825C6B234008C02A1 /* LaunchScreen.storyboard */; };
-		E953DE0525C6B234008C02A1 /* StocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953DE0425C6B234008C02A1 /* StocksTests.swift */; };
-		E953DE1025C6B234008C02A1 /* StocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953DE0F25C6B234008C02A1 /* StocksUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E953DDEA25C6B231008C02A1 /* Stonks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E953DDED25C6B231008C02A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E953DDEF25C6B231008C02A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E953DDF125C6B231008C02A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,13 +40,10 @@
 		E953DDF625C6B234008C02A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E953DDF925C6B234008C02A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E953DDFB25C6B234008C02A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E953DE0025C6B234008C02A1 /* StonksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StonksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E953DE0425C6B234008C02A1 /* StocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTests.swift; sourceTree = "<group>"; };
-		E953DE0625C6B234008C02A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E953DE0B25C6B234008C02A1 /* StonksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StonksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E953DE0F25C6B234008C02A1 /* StocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksUITests.swift; sourceTree = "<group>"; };
-		E953DE1125C6B234008C02A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E953DE0025C6B234008C02A1 /* StonksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StonksTests.xctest; path = "/Users/alemikhaylova/stonks/build/Debug-iphoneos/StonksTests.xctest"; sourceTree = "<absolute>"; };
+		E953DE0B25C6B234008C02A1 /* StonksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StonksUITests.xctest; path = "/Users/alemikhaylova/stonks/build/Debug-iphoneos/StonksUITests.xctest"; sourceTree = "<absolute>"; };
 		E97FCD0A25FE381F00A2C66E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E97FCD1125FE3AB300A2C66E /* Stonks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,20 +76,8 @@
 			children = (
 				E97FCD0A25FE381F00A2C66E /* .gitignore */,
 				E953DDEC25C6B231008C02A1 /* Stonks */,
-				E953DE0325C6B234008C02A1 /* StonksTests */,
-				E953DE0E25C6B234008C02A1 /* StonksUITests */,
-				E953DDEB25C6B231008C02A1 /* Products */,
+				E97FCD1125FE3AB300A2C66E /* Stonks.app */,
 			);
-			sourceTree = "<group>";
-		};
-		E953DDEB25C6B231008C02A1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E953DDEA25C6B231008C02A1 /* Stonks.app */,
-				E953DE0025C6B234008C02A1 /* StonksTests.xctest */,
-				E953DE0B25C6B234008C02A1 /* StonksUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E953DDEC25C6B231008C02A1 /* Stonks */ = {
@@ -110,24 +92,6 @@
 				E953DDFB25C6B234008C02A1 /* Info.plist */,
 			);
 			path = Stonks;
-			sourceTree = "<group>";
-		};
-		E953DE0325C6B234008C02A1 /* StonksTests */ = {
-			isa = PBXGroup;
-			children = (
-				E953DE0425C6B234008C02A1 /* StocksTests.swift */,
-				E953DE0625C6B234008C02A1 /* Info.plist */,
-			);
-			path = StonksTests;
-			sourceTree = "<group>";
-		};
-		E953DE0E25C6B234008C02A1 /* StonksUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E953DE0F25C6B234008C02A1 /* StocksUITests.swift */,
-				E953DE1125C6B234008C02A1 /* Info.plist */,
-			);
-			path = StonksUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +111,7 @@
 			);
 			name = Stonks;
 			productName = Stocks;
-			productReference = E953DDEA25C6B231008C02A1 /* Stonks.app */;
+			productReference = E97FCD1125FE3AB300A2C66E /* Stonks.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E953DDFF25C6B234008C02A1 /* StonksTests */ = {
@@ -217,7 +181,7 @@
 				Base,
 			);
 			mainGroup = E953DDE125C6B231008C02A1;
-			productRefGroup = E953DDEB25C6B231008C02A1 /* Products */;
+			productRefGroup = E953DDE125C6B231008C02A1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -270,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E953DE0525C6B234008C02A1 /* StocksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E953DE1025C6B234008C02A1 /* StocksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = Stocks/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stonks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = Stocks/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stonks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
