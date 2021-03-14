@@ -13,24 +13,8 @@
 		E953DDF525C6B231008C02A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF325C6B231008C02A1 /* Main.storyboard */; };
 		E953DDF725C6B234008C02A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF625C6B234008C02A1 /* Assets.xcassets */; };
 		E953DDFA25C6B234008C02A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953DDF825C6B234008C02A1 /* LaunchScreen.storyboard */; };
+		E97FCD2325FE41BF00A2C66E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97FCD2225FE41BF00A2C66E /* Token.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E953DE0125C6B234008C02A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E953DDE225C6B231008C02A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E953DDE925C6B231008C02A1;
-			remoteInfo = Stocks;
-		};
-		E953DE0C25C6B234008C02A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E953DDE225C6B231008C02A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E953DDE925C6B231008C02A1;
-			remoteInfo = Stocks;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E953DDED25C6B231008C02A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,28 +24,14 @@
 		E953DDF625C6B234008C02A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E953DDF925C6B234008C02A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E953DDFB25C6B234008C02A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E953DE0025C6B234008C02A1 /* StonksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StonksTests.xctest; path = "/Users/alemikhaylova/stonks/build/Debug-iphoneos/StonksTests.xctest"; sourceTree = "<absolute>"; };
-		E953DE0B25C6B234008C02A1 /* StonksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StonksUITests.xctest; path = "/Users/alemikhaylova/stonks/build/Debug-iphoneos/StonksUITests.xctest"; sourceTree = "<absolute>"; };
 		E97FCD0A25FE381F00A2C66E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E97FCD1125FE3AB300A2C66E /* Stonks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97FCD2225FE41BF00A2C66E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E97FCD2825FE426300A2C66E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E953DDE725C6B231008C02A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E953DDFD25C6B234008C02A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E953DE0825C6B234008C02A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,6 +44,7 @@
 		E953DDE125C6B231008C02A1 = {
 			isa = PBXGroup;
 			children = (
+				E97FCD2825FE426300A2C66E /* README.md */,
 				E97FCD0A25FE381F00A2C66E /* .gitignore */,
 				E953DDEC25C6B231008C02A1 /* Stonks */,
 				E97FCD1125FE3AB300A2C66E /* Stonks.app */,
@@ -90,6 +61,7 @@
 				E953DDF625C6B234008C02A1 /* Assets.xcassets */,
 				E953DDF825C6B234008C02A1 /* LaunchScreen.storyboard */,
 				E953DDFB25C6B234008C02A1 /* Info.plist */,
+				E97FCD2225FE41BF00A2C66E /* Token.swift */,
 			);
 			path = Stonks;
 			sourceTree = "<group>";
@@ -114,42 +86,6 @@
 			productReference = E97FCD1125FE3AB300A2C66E /* Stonks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E953DDFF25C6B234008C02A1 /* StonksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E953DE1725C6B234008C02A1 /* Build configuration list for PBXNativeTarget "StonksTests" */;
-			buildPhases = (
-				E953DDFC25C6B234008C02A1 /* Sources */,
-				E953DDFD25C6B234008C02A1 /* Frameworks */,
-				E953DDFE25C6B234008C02A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E953DE0225C6B234008C02A1 /* PBXTargetDependency */,
-			);
-			name = StonksTests;
-			productName = StocksTests;
-			productReference = E953DE0025C6B234008C02A1 /* StonksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E953DE0A25C6B234008C02A1 /* StonksUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E953DE1A25C6B234008C02A1 /* Build configuration list for PBXNativeTarget "StonksUITests" */;
-			buildPhases = (
-				E953DE0725C6B234008C02A1 /* Sources */,
-				E953DE0825C6B234008C02A1 /* Frameworks */,
-				E953DE0925C6B234008C02A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E953DE0D25C6B234008C02A1 /* PBXTargetDependency */,
-			);
-			name = StonksUITests;
-			productName = StocksUITests;
-			productReference = E953DE0B25C6B234008C02A1 /* StonksUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,14 +97,6 @@
 				TargetAttributes = {
 					E953DDE925C6B231008C02A1 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					E953DDFF25C6B234008C02A1 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = E953DDE925C6B231008C02A1;
-					};
-					E953DE0A25C6B234008C02A1 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = E953DDE925C6B231008C02A1;
 					};
 				};
 			};
@@ -186,8 +114,6 @@
 			projectRoot = "";
 			targets = (
 				E953DDE925C6B231008C02A1 /* Stonks */,
-				E953DDFF25C6B234008C02A1 /* StonksTests */,
-				E953DE0A25C6B234008C02A1 /* StonksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,20 +129,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E953DDFE25C6B234008C02A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E953DE0925C6B234008C02A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,37 +139,11 @@
 				E953DDF225C6B231008C02A1 /* ViewController.swift in Sources */,
 				E953DDEE25C6B231008C02A1 /* AppDelegate.swift in Sources */,
 				E953DDF025C6B231008C02A1 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E953DDFC25C6B234008C02A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E953DE0725C6B234008C02A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E97FCD2325FE41BF00A2C66E /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E953DE0225C6B234008C02A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E953DDE925C6B231008C02A1 /* Stonks */;
-			targetProxy = E953DE0125C6B234008C02A1 /* PBXContainerItemProxy */;
-		};
-		E953DE0D25C6B234008C02A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E953DDE925C6B231008C02A1 /* Stonks */;
-			targetProxy = E953DE0C25C6B234008C02A1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E953DDF325C6B231008C02A1 /* Main.storyboard */ = {
@@ -433,90 +319,6 @@
 			};
 			name = Release;
 		};
-		E953DE1825C6B234008C02A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = StocksTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.tinkoff.StocksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stonks.app/Stonks";
-			};
-			name = Debug;
-		};
-		E953DE1925C6B234008C02A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = StocksTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.tinkoff.StocksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stonks.app/Stonks";
-			};
-			name = Release;
-		};
-		E953DE1B25C6B234008C02A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = StocksUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.tinkoff.StocksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Stocks;
-			};
-			name = Debug;
-		};
-		E953DE1C25C6B234008C02A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5HLZKGYS3N;
-				INFOPLIST_FILE = StocksUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.tinkoff.StocksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Stocks;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,24 +336,6 @@
 			buildConfigurations = (
 				E953DE1525C6B234008C02A1 /* Debug */,
 				E953DE1625C6B234008C02A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E953DE1725C6B234008C02A1 /* Build configuration list for PBXNativeTarget "StonksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E953DE1825C6B234008C02A1 /* Debug */,
-				E953DE1925C6B234008C02A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E953DE1A25C6B234008C02A1 /* Build configuration list for PBXNativeTarget "StonksUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E953DE1B25C6B234008C02A1 /* Debug */,
-				E953DE1C25C6B234008C02A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

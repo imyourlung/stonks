@@ -43,7 +43,6 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Private
-    
     private func requestQuoteUpdate() {
         activityIndicator.startAnimating()
         companyNameLabel.text = "-"
@@ -60,7 +59,6 @@ class ViewController: UIViewController {
     }
     
     private func requestQuote(for symbol: String) {
-        let token = "pk_94fc8a8634b14f439b6789c2458ed80e"
         guard let url = URL(string: "https://cloud.iexapis.com/stable/stock/\(symbol)/quote?token=\(token)") else {
             return
         }
@@ -98,7 +96,6 @@ class ViewController: UIViewController {
     }
     
     private func requestImageUrl(for symbol: String) {
-        let token = "my_token"
         guard let url = URL(string: "https://cloud.iexapis.com/stable/stock/\(symbol)/logo?token=\(token)") else {
                 return
             }
